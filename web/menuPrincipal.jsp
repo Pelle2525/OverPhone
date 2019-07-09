@@ -21,11 +21,23 @@
     <div class="header-very-top">
         <div></div>
     </div>
-    
-    <div class="header-top">
-        <div></div>
+    <ul class="ul-banner">
+        <li class="li-banner"><a href="#home">$ CLP</a></li>
+        <li class="li-banner"><a href="#news">Español</a></li>
+        <li class="li-banner"><a href="#contact">Mi cuenta</a></li>
+        <li class="li-banner"><a href="#iniciarSesion">Iniciar Sesion</a></li>
+        
+        <li class="li-banner dropdown">
+    <a href="javascript:void(0)" class="li-banner dropbtn">Dropdown</a>
+    <div class="dropdown-content-div-top">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
-    
+  </li>
+        
+    </ul>
+
     <header role="banner" class="header">
         <div class="div-banner">
             <a class="nav-logo" href="menu.jsp" tabindex="1"></a>

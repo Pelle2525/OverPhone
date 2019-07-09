@@ -226,9 +226,71 @@
                 top: 32px;
                 left:72px;
             }
+            <%--NavBar Banner--%>
+
+            .ul-banner {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border: 1px solid #e7e7e7;
+                background-color: #f3f3f3;
+                margin-right: 15%;
+                margin-bottom: 4px;
+                height: 30px;
+            }
+
+            .li-banner {
+                float: right;
+            }
+
+            .li-banner a {
+                display: block;
+                color: #666;
+                text-align: center;
+                padding: 0px 15px;
+                text-decoration: none;
+            }
+
+            .li-banner a:hover:not(.active) .dropdown:hover .dropbtn {
+                background-color: #ddd;
+            }
+
+            .li-banner a.active {
+                color: white;
+                background-color: #4CAF50;
+            }
+            
+            <%--Dropdown--%>
+            .li-banner.dropdown {
+                display: inline-block;
+            }
+
+            .dropdown-content-div-top {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content-div-top a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content-div-top a:hover {background-color: #f1f1f1;}
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
 
             <%--Menu Principal--%>
-            ul {
+            .ul-categorias {
                 position: absolute;
                 top: 215px;
                 left: 81px;
@@ -241,7 +303,7 @@
                 margin-left: 11%;
             }
 
-            li a {
+            .li-categorias a {
                 display: block;
                 color: #000;
                 padding: 8px 16px;
@@ -252,7 +314,7 @@
                 line-height: 45px;
             }
 
-            li a.br-primera{
+            .li-categorias a.br-primera{
                 background-color: #FF6800;
                 color: white;
                 font-size: 22px;
@@ -262,7 +324,7 @@
 
             }
 
-            li a:hover:not(.br-primera) {
+            .li-categorias a:hover:not(.br-primera) {
                 background-color: #555;
                 color: white;
             }

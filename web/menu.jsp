@@ -11,12 +11,12 @@
     <body>
         <form class="form-index">
             
-        <ul class="ul">
-            <li><a class="br-primera">Categorias</a></li>
-            <li><a href="menu.jsp">Ofertas de la semana</a></li>
-            <li><a href="menu.jsp">Smarthphones</a></li>
-            <li><a href="menu.jsp">Accesorios</a></li>
-            <li><a href="menu.jsp">Vintage</a></li>
+        <ul class="ul-categorias">
+            <li class="li-categorias"><a class="br-primera">Categorias</a></li>
+            <li class="li-categorias"><a href="menu.jsp">Ofertas de la semana</a></li>
+            <li class="li-categorias"><a href="menu.jsp">Smarthphones</a></li>
+            <li class="li-categorias"><a href="menu.jsp">Accesorios</a></li>
+            <li class="li-categorias"><a href="menu.jsp">Vintage</a></li>
         </ul>
             
         <div class="div-codigo">
