@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <form>
+        <form class="form-index">
             
         <ul class="ul">
             <li><a class="br-primera">Categorias</a></li>

@@ -29,6 +29,7 @@
     <header role="banner" class="header">
         <div class="div-banner">
             <a class="nav-logo" href="menu.jsp" tabindex="1"></a>
+            
             <div class="search-container">
                 <form>
                     <input type="text" placeholder="Buscar.." name="search">
@@ -41,6 +42,9 @@
     </header>
     
     <div class="div-under">
+        <div class="div-container-container-header">
+            
+       
         <div class="div-container-header-top-logos fsd">
             <img class="posicion-size-img-fast-shipping-delivery" src="img/paginaPrincipal/fast-shipping-delivery.png">
             <div class="text-div-under-bold">Envío y devolución gratis</div>
@@ -58,7 +62,7 @@
             <div class="text-div-under-bold">Soporte en línea 24/7</div>
             <div class="text-div-under-tiny">Cuenta con nuestro apoyo</div>
         </div>
-        
+         </div>
         
     </div>
     </div>

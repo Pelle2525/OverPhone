@@ -37,7 +37,8 @@
                 float: right;
                 position: relative;
                 top: 25px;
-                right: 30%;
+                margin-right:35%;
+                margin-left:35%;
                 margin-bottom: 8px;
 
             }
@@ -56,7 +57,7 @@
                 float: right;
                 padding: 0px 10px;
                 margin-top: 8px;
-                margin-right: 16px;
+                margin-right: 3px;
                 background: #ddd;
                 font-size: 17px;
                 border: none;
@@ -75,6 +76,13 @@
                 font-family: "Droid Sans";
                 width: 100%;
 
+            }
+            
+            
+            .form-index{
+                width: 78%;
+                margin-right: 11%;
+                margin-left: 11%;
             }
 
             .header {
@@ -97,7 +105,7 @@
                 overflow-x: hidden;
                 overflow-y: hidden;
                 position: absolute;
-                left: 40px;
+                left: 15%;
             }
 
             img{
@@ -124,12 +132,16 @@
             }
 
             .header-top{
-                background-color: #000000;
+                background-color: #F2F2F2;
                 height: 35px;
                 position: relative;
                 width: 100%;
             }
-
+            
+            .div-container-container-header{
+                 margin-left: 10%;
+                 margin-right: 10%;
+            }
             .div-container-header-top-logos{
                 border: 2px solid #000;
                 height: 65px;
@@ -177,6 +189,7 @@
                 position: absolute;
                 top: 20px;
                 right: 278px;
+                margin-right:11%;
             }
 
             .text-div-numero-contacto{
@@ -189,6 +202,7 @@
                 position: absolute;
                 top: 35px;
                 right: 206px;
+                margin-right:11%;
             }
 
             .text-div-under-bold{
@@ -224,6 +238,7 @@
                 width: 315px;
                 background-color: #ffffff;
                 border: 2px solid #c9cfd8;
+                margin-left: 11%;
             }
 
             li a {
@@ -260,6 +275,7 @@
                 padding: 0;
                 width: 315px;
                 border: 2px solid #c9cfd8;
+                margin-left: 11%;
             }
 
             .div-text-codigo{
@@ -284,11 +300,13 @@
                 padding: 0;
                 width: 315px;
                 border: 2px solid #c9cfd8;
+                margin-left: 11%;
             }
 
             <%-- Slider OverPhone--%>
             #slide{
                 width:96%;
+                
             }
 
             * {
