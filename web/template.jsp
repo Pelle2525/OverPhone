@@ -124,12 +124,10 @@
             }
 
             .header-top{
-                background-color: #F2F2F2;
-                height: 2px;
+                background-color: #000000;
+                height: 35px;
                 position: relative;
                 width: 100%;
-                padding: 0px;
-                margin: 0px;
             }
 
             .div-container-header-top-logos{

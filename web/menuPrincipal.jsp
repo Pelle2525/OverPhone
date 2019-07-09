@@ -20,11 +20,11 @@
     
     <div class="header-very-top">
         <div></div>
-    </div><br>
+    </div>
     
-    <header class="header-top">
+    <div class="header-top">
         <div></div>
-    </header><br>
+    </div>
     
     <header role="banner" class="header">
         <div class="div-banner">
@@ -58,11 +58,11 @@
             <div class="text-div-under-bold">Soporte en línea 24/7</div>
             <div class="text-div-under-tiny">Cuenta con nuestro apoyo</div>
         </div>
+        
+        
     </div>
-    <br>
+    </div>
     
-    </div>
-
 
 </body>
 </html>
